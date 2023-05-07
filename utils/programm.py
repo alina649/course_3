@@ -71,7 +71,6 @@ def changing_from(path):
         if where_from == 'Hidden':
             list2.append(i)
         else:
-               where_from  != 'Hidden'
                line = re.findall(r'[a-zA-Zа-яА-Я]+', where_from)
                number = re.findall(r'\d+', where_from)
 
